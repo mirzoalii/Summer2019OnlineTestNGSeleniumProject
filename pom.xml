@@ -24,6 +24,13 @@
         <artifactId>byte-buddy</artifactId>
         <version>1.10.1</version>
     </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+        </dependency>
+
+
 
     </dependencies>
 

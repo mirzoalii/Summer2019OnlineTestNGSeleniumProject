@@ -21,6 +21,6 @@ public class TestsForClassNameLocator {
 
 
 
-        //driver.quit();
+        driver.quit();
     }
 }
