@@ -33,7 +33,7 @@ public class MyFirstPurchase {
 
     @AfterTest
     public void password() {
-        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("amazon12345");
+        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("123456789");
         driver.findElement(By.cssSelector("[type='checkbox']")).click();
         driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
         driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();

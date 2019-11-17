@@ -16,7 +16,7 @@ public class amazon1 {
         driver.findElement(By.linkText("Sign in")).click();
         driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("ibrohim.mirzoali@gmail.com");
         driver.findElement(By.id("continue")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("amazon12345");
+        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("123456789");
 
     }
 }
