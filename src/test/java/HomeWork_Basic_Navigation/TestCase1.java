@@ -18,10 +18,10 @@ public class TestCase1 {
         fullname.sendKeys("Ibrohim Ikromzoda");
 
         WebElement email = driver.findElement(By.name("email"));
-        email.sendKeys("ibrohim.ikromzoda@gmail.com");
+        email.sendKeys("email@email.com");
 
-       WebElement button = driver.findElement(By.name("wooden_spoon"));
-       button.click();
+       WebElement button = driver.findElement(By.xpath("wooden_spoon"));
+        button.click();
 
        WebElement subheader = driver.findElement(By.name("signup_message"));
         System.out.println(subheader.getText());
