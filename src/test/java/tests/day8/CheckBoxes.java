@@ -30,6 +30,7 @@ public class CheckBoxes {
         //    <input type="checkbox" checked=""> checkbox 2
 //                </form>
         List<WebElement> checkboxes = driver.findElements(By.cssSelector("[type='checkbox']"));
+
         int index = 1;
         for (WebElement checkbox : checkboxes) {
             if(checkbox.isEnabled() && !checkbox.isSelected()){
@@ -43,6 +44,6 @@ public class CheckBoxes {
     }
     @AfterMethod
     public void teardown() {
-        driver.quit();
+        //driver.quit();
     }
 }
