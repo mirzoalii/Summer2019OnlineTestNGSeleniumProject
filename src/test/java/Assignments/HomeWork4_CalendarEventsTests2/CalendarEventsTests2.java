@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utils.BrowserFactory;
 import utils.BrowserUtils;
-import utils.Driver;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -310,6 +310,6 @@ public void test2() {
 
 @AfterMethod
 public void teardown() {
-        //driver.quit();
+        driver.quit();
     }
 }
