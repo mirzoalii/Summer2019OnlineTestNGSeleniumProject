@@ -13,6 +13,7 @@ public class BrowserFactoryTest {
         //and we can use reference variable to work with that object
 
         driver.get("http://practice.cybertekschool.com");
+
         //how we can print a source code of the page?
         System.out.println(driver.getPageSource());
         //to finish test execution.
