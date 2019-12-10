@@ -17,15 +17,33 @@ public class CreateCarPage extends BasePage {
     @FindBy(name = "custom_entity_type[Location]")
     public WebElement locationElement;
 
-    @FindBy(css = "[class='btn btn-success action-button']")
-    public WebElement saveAndCloseButtonElement;
+    @FindBy(name = "custom_entity_type[ModelYear]")
+    public WebElement modelYearElement;
+
+    @FindBy(name = "custom_entity_type[LastOdometer]")
+    public WebElement lastOdometerElement;
+
+    @FindBy(name = "custom_entity_type[SeatsNumber]")
+    public WebElement seatsNumberElement;
+
+    @FindBy(name = "custom_entity_type[DoorsNumber]")
+    public WebElement doorsNumberElement;
+
+    @FindBy(name = "custom_entity_type[Color]")
+    public WebElement colorElement;
 
     @FindBy(css = "div[id*='FuelType']")
     public WebElement fuelTypeElement;
 
+
+
     //if this locator doesn't work, use [id^='uniform-custom_entity_type_Logo_file'] > span[class='action']
     @FindBy(name = "custom_entity_type[Logo][file]")
     public WebElement logoElement;
+
+
+    @FindBy(css = "[class='btn btn-success action-button']")
+    public WebElement saveAndCloseButtonElement;
 
 
     /**
@@ -71,6 +89,8 @@ public class CreateCarPage extends BasePage {
         BrowserUtils.waitForClickablility(fuelTypeSelectionElement, 15);
         fuelTypeSelectionElement.click();
     }
+
+
 
     /**
      * This method will upload a file

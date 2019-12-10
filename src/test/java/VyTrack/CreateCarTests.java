@@ -25,9 +25,16 @@ public class CreateCarTests extends TestBase {
 
         loginPage.waitUntilLoaderMaskDisappear();
 
-        createCarPage.licensePlateElement.sendKeys("Random");
-        createCarPage.selectTags("Compact");
-        createCarPage.selectFuelType("Diesel");
+        createCarPage.licensePlateElement.sendKeys("911");
+        createCarPage.selectTags("Convertible");
+        createCarPage.driverElement.sendKeys("Ibrohim Ikromzoda");
+        createCarPage.locationElement.sendKeys("Los Angelees");
+        createCarPage.modelYearElement.sendKeys("2019");
+        createCarPage.lastOdometerElement.sendKeys("450");
+        createCarPage.seatsNumberElement.sendKeys("5");
+        createCarPage.doorsNumberElement.sendKeys("4");
+        createCarPage.colorElement.sendKeys("MatteBlack");
+        createCarPage.selectFuelType("Electric");
 
         loginPage.waitUntilLoaderMaskDisappear();
         createCarPage.saveAndCloseButtonElement.click();

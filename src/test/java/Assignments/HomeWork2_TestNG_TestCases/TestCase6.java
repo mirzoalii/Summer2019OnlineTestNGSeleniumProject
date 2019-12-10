@@ -22,6 +22,8 @@ public class TestCase6 {
 
     }
 
+
+
     @Test
     public void registration() {
         String TempEmail = driver.findElement(By.id("email")).getText();
