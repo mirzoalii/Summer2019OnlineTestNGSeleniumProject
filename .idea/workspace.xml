@@ -278,15 +278,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Assignments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="187" y="43" key="CommitChangelistDialog2" timestamp="1578184085228">
+    <state x="187" y="43" key="CommitChangelistDialog2" timestamp="1578184621266">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="187" y="43" key="CommitChangelistDialog2/0.23.1440.829/-1600.23.1600.877/1440.23.1600.877@0.23.1440.829" timestamp="1578183721267" />
-    <state x="187" y="43" key="CommitChangelistDialog2/0.23.1440.830/-1600.23.1600.877/1440.23.1600.877@0.23.1440.830" timestamp="1578184085228" />
-    <state x="322" y="180" key="Vcs.Push.Dialog.v2" timestamp="1578183732889">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="187" y="43" key="CommitChangelistDialog2/0.23.1440.830/-1600.23.1600.877/1440.23.1600.877@0.23.1440.830" timestamp="1578184621266" />
+    <state x="322" y="180" key="Vcs.Push.Dialog.v2" timestamp="1578184625961">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="322" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.829/-1600.23.1600.877/1440.23.1600.877@0.23.1440.829" timestamp="1578183732889" />
+    <state x="322" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.830/-1600.23.1600.877/1440.23.1600.877@0.23.1440.830" timestamp="1578184625961" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Summer2019OnlineTestNGSeleniumProject$FindElementsTest.ic" NAME="FindElementsTest Coverage Results" MODIFIED="1571769178769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
